@@ -46,15 +46,3 @@ stamps:
   - timestamp: "7:10"
     content: "Closing words."
 ---
-
-Multiple submissions from the closed guard.
-
-- Two variations of cross choke
-- Arm Lock / Arm Bar
-  - Regular Arm Lock
-  - Head Hook Arm
-- Triangle
-- Omoplata
-  - Rolling Omoplata
-- Monoplata
-- Arm Wrap Cross Choke

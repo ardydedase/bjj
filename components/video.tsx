@@ -49,7 +49,7 @@ export default function Video({
     );
   });
   return (
-    <div className={styles.flexContainer}>
+    <div>
       <div>
         <YouTube videoId={videoId} opts={opts} onReady={_onReady} />
       </div>
