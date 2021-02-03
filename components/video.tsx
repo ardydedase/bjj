@@ -16,7 +16,7 @@ export default function Video({
     // access to player in all event handlers via event.target
     _eventTarget = e.target;
   };
-  const getTimeValue = (url: string): number => {
+  const _getTimeValue = (url: string): number => {
     return parseInt(url.split("#")[1]);
   };
   const _getSeconds = (timestamp: string) => {
@@ -25,7 +25,7 @@ export default function Video({
     return minutes * 60 + seconds;
   };
   const _seekTo = (e) => {
-    const time: number = getTimeValue(e.target.href);
+    const time: number = _getTimeValue(e.target.href);
     _eventTarget.seekTo(time);
   };
   const opts: { height; width; playerVars } = {
