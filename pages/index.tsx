@@ -35,10 +35,7 @@ export default function Home({ allPostsData }) {
           <Emoji text="I use this web app is to keep notes of what I learn about BJJ." />
         </p>
         <p>
-          <Emoji
-            text="I built this web app when I was on my 14-day :mask: COVID quarantine after my
-          arrival in :ca: Canada."
-          />
+          <Emoji text="I built this web app when I was on my 14-day :mask: COVID quarantine in :ca: Canada." />
         </p>
         <p>
           The code started off from the{" "}

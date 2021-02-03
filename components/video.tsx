@@ -38,7 +38,6 @@ export default function Video({
   };
   const listHtml: Array<JSX.Element> = stamps.map((stamp) => {
     const seconds: number = _getSeconds(stamp.timestamp);
-    console.log("seconds: ", seconds);
     return (
       <li>
         <Emoji text=":pushpin:" />{" "}
@@ -57,11 +56,11 @@ export default function Video({
       <div className={utilStyles.timestampBox}>
         <ul>
           <li>
-            <Emoji text=":green_book: :open_file_folder:" />
+            <Emoji text=":scroll: :point_down:" />
           </li>
           {listHtml}
           <li>
-            <Emoji text=":closed_book: :end:" />
+            <Emoji text=":scroll: :end:" />
           </li>
         </ul>
       </div>

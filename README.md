@@ -13,3 +13,9 @@ Generated files will be in the `/out` folder.
 ```
 npm run build
 ```
+
+Run the static files locally.
+
+```
+./node_modules/http-server/bin/http-server ./out
+```
