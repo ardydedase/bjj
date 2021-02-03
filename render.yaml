@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bjj
+    env: static
+    repo: https://github.com/ardydedase/bjj.git
+    buildCommand: npm run build
+    staticPublishPath: ./out
+    branch: main
+    pullRequestPreviewsEnabled: true # optional
+
