@@ -29,8 +29,8 @@ export default function Video({
     _eventTarget.seekTo(time);
   };
   const opts: { height; width; playerVars } = {
-    height: "390",
-    width: "640",
+    height: "auto",
+    width: "auto",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
@@ -50,8 +50,13 @@ export default function Video({
   });
   return (
     <div>
-      <div>
-        <YouTube videoId={videoId} opts={opts} onReady={_onReady} />
+      <div className={utilStyles.videoBox}>
+        <YouTube
+          className={utilStyles.video}
+          videoId={videoId}
+          opts={opts}
+          onReady={_onReady}
+        />
       </div>
       <div className={utilStyles.timestampBox}>
         <ul>
