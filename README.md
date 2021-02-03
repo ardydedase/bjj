@@ -6,12 +6,10 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 npm run dev
 ```
 
-Embed API sample
+## Build static files
+
+Generated files will be in the `/out` folder.
 
 ```
-embed(videoUrl)
-{
-    '1:00': 'this is me',
-    '2:00': 'hello',
-}
+npm run build
 ```

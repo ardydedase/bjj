@@ -20,7 +20,7 @@ export default function Post({
   };
 }) {
   return (
-    <Layout>
+    <Layout home={false}>
       <Head>
         <title>{postData.title}</title>
       </Head>

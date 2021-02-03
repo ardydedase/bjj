@@ -42,7 +42,11 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           The code started off from the{" "}
-          <a href="https://nextjs.org/learn"> Next.js tutorial</a>.
+          <a href="https://nextjs.org/learn" target="_blank">
+            {" "}
+            Next.js tutorial
+          </a>
+          .
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
