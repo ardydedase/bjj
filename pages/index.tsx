@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
           , a
           <Emoji text=":computer: Software Engineer who loves :br: Brazilian Jiu Jitsu (BJJ)." />
           <br />
-          <Emoji text="I use this web app is to keep notes of what I learn about BJJ." />
+          <Emoji text="I use this web app is to keep notes of my BJJ journey." />
         </p>
         <p>
           <Emoji text="I built this web app when I was on my 14-day :mask: COVID quarantine in :ca: Canada." />
