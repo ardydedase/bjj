@@ -34,6 +34,10 @@
 .timestampBox {
   height: 10rem;
   overflow: scroll;
+  margin-top: 1.5em;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 0.25em 0;
 }
 
 .videoBox {
@@ -69,10 +73,22 @@
   margin: 0;
 }
 
+.timeStampList {
+  margin: 0;
+  list-style-image: url("../public/images/pushpin.png");
+}
+
 .listItem {
-  margin: 0 0 1.25rem;
+  padding: 0.5rem;
 }
 
 .lightText {
   color: #999;
+}
+
+.centerListItem {
+  text-align: center;
+  margin: 0.5em 0;
+  list-style-type: none;
+  list-style-image: none;
 }

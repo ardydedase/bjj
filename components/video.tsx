@@ -39,8 +39,7 @@ export default function Video({
   const listHtml: Array<JSX.Element> = stamps.map((stamp) => {
     const seconds: number = _getSeconds(stamp.timestamp);
     return (
-      <li>
-        <Emoji text=":pushpin:" />{" "}
+      <li className={utilStyles.listItem}>
         <a href={`#${seconds}`} onClick={_seekTo}>
           {stamp.timestamp}
         </a>{" "}
@@ -59,12 +58,12 @@ export default function Video({
         />
       </div>
       <div className={utilStyles.timestampBox}>
-        <ul>
-          <li>
+        <ul className={utilStyles.timeStampList}>
+          <li className={utilStyles.centerListItem}>
             <Emoji text=":scroll: :point_down:" />
           </li>
           {listHtml}
-          <li>
+          <li className={utilStyles.centerListItem}>
             <Emoji text=":scroll: :end:" />
           </li>
         </ul>
