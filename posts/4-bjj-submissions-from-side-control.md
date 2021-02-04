@@ -49,6 +49,6 @@ stamps:
     content: "Opponent's thumb should point up."
   - timestamp: "4:50"
     content: "Stay fluid in the position. Don't be too rigid or stay in the same position."
-  - timestamp: "4:28"
+  - timestamp: "5:28"
     content: "Closing words. Wait for mistakes, take what the opponent gives you."
 ---
