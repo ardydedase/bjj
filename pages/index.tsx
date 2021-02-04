@@ -25,12 +25,12 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.intro}>
         <p>
-          Hi, I'm{" "}
+          Built and maintained by{" "}
           <a href="https://ardy.me/" target="_blank">
             Ardy
           </a>
-          .{" "}
-          <Emoji text="I'm a :computer: Software Engineer who loves :br: Brazilian Jiu Jitsu (BJJ)." />
+          , a
+          <Emoji text=":computer: Software Engineer who loves :br: Brazilian Jiu Jitsu (BJJ)." />
           <br />
           <Emoji text="I use this web app is to keep notes of what I learn about BJJ." />
         </p>
@@ -43,7 +43,9 @@ export default function Home({ allPostsData }) {
             {" "}
             Next.js tutorial
           </a>
-          .
+          . <br />
+          This project is Open Source under MIT license.{" "}
+          <a href="https://github.com/ardydedase/bjj">Download on GitHub</a>.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
