@@ -19,6 +19,13 @@ export default function Post({
     stamps: Array<{ timestamp; content }>;
   };
 }) {
+  let notesHeading: JSX.Element = postData.contentHtml ? (
+    <h3>
+      <Emoji text=":pencil:" /> Notes
+    </h3>
+  ) : (
+    <></>
+  );
   return (
     <Layout home={false}>
       <Head>
@@ -32,6 +39,7 @@ export default function Post({
           <Emoji text=":calendar:" /> <Date dateString={postData.date} />
         </div>
         <Video videoId={postData.videoId} stamps={postData.stamps} />
+        {notesHeading}
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

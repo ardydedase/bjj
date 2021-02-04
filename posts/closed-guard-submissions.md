@@ -50,3 +50,11 @@ stamps:
   - timestamp: "7:10"
     content: "Closing words."
 ---
+
+Submissions from closed guard.
+
+- Cross choke
+- Arm lock / arm bar
+- Triangle
+- Omoplata
+- Monoplata

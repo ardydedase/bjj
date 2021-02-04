@@ -57,6 +57,9 @@ export default function Video({
           onReady={_onReady}
         />
       </div>
+      <h3>
+        <Emoji text=":watch:" /> Timestamp
+      </h3>
       <div className={utilStyles.timestampBox}>
         <ul className={utilStyles.timeStampList}>
           <li className={utilStyles.centerListItem}>
