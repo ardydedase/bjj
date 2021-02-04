@@ -82,6 +82,10 @@
   padding: 0.5rem;
 }
 
+.listItem:hover {
+  background-color: rgb(232, 233, 178);
+}
+
 .lightText {
   color: #999;
 }

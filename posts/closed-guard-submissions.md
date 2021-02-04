@@ -2,6 +2,10 @@
 title: "Closed Guard Submissions"
 date: "2021-02-02"
 videoId: "SZmnh7yZlOw"
+tags:
+  - "gi"
+  - "closed guard"
+  - "submissions"
 stamps:
   - timestamp: "0:35"
     content: Starting with the closed guard.
