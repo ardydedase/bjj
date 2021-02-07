@@ -32,10 +32,10 @@ export default function Home({ allPostsData }) {
           , a
           <Emoji text=":computer: Software Engineer who loves :br: Brazilian Jiu Jitsu (BJJ)." />
           <br />
-          <Emoji text="I use this web app is to keep notes of my BJJ journey." />
+          <Emoji text="He uses this web app is to keep notes of his BJJ journey." />
         </p>
         <p>
-          <Emoji text="I built this web app when I was on my 14-day :mask: COVID quarantine in :ca: Canada." />
+          <Emoji text="He built this web app when he was on my 14-day :mask: COVID quarantine in :ca: Canada." />
         </p>
         <p>
           The code started off from the{" "}

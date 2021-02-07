@@ -1,7 +1,6 @@
 import styles from "./layout.module.css";
 import YouTube from "react-youtube";
 import utilStyles from "../styles/utils.module.css";
-
 import Emoji from "react-emoji-render";
 
 export default function Video({
