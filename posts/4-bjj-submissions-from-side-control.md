@@ -25,8 +25,6 @@ stamps:
     content: "Place forearm on the lower belly. Either cup or grip."
   - timestamp: "1:55"
     content: "Slide knee on the opponent's lower belly. Not a full knee on belly, no need to posture up."
-  - timestamp: "1:55"
-    content: "Slide knee on the opponent's lower belly. Not a full knee on belly, no need to posture up."
   - timestamp: "2:15"
     content: "Take the underhook and pull the arm up."
   - timestamp: "2:30"
